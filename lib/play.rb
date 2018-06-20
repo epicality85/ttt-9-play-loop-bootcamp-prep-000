@@ -38,5 +38,8 @@ end
 # Define your play method below
 
 def play(board)
+  count = 0
+  while count <= board.length
   
+  end
 end
