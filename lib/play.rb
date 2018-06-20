@@ -39,7 +39,7 @@ end
 
 def play(board)
   count = 0
-  while count <= board.length
-  
+  while count <= board.length do
+    turn(board)
   end
 end
