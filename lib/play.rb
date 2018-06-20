@@ -36,3 +36,23 @@ def turn(board)
 end
 
 # Define your play method below
+
+def play(board)
+  count = 0
+  while count < board.length do
+    turn(board)
+    count += 1
+  end
+end
+
+def there_is_a_winner?(board)
+  if board[0] == "X" and board[1] == "X" and board[2] == "X"
+    return TRUE
+  elsif board[3] == "X" and board[4] == "X" and board[5] == "X"
+    return TRUE
+  elsif board[6] == "X" and board[7] == "X" and board[8] == "X"
+    return TRUE
+  else
+    return FALSE
+  end
+end
