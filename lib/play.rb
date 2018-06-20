@@ -48,5 +48,6 @@ end
 def check_winner?(board)
   if board[0] == "X" and board[1] == "X" and board[2] == "X"
     return TRUE
-    
+  elsif board[0] == "X" and board[0] == "X" and board[0] == "X"
+    return TRUE
 end
