@@ -45,7 +45,7 @@ def play(board)
   end
 end
 
-def check_winner?(board)
+def there_is_a_winner?(board)
   if board[0] == "X" and board[1] == "X" and board[2] == "X"
     return TRUE
   elsif board[3] == "X" and board[4] == "X" and board[5] == "X"
