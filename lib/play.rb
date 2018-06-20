@@ -44,3 +44,9 @@ def play(board)
     count += 1
   end
 end
+
+def check_winner?(board)
+  if board[0] == "X" and board[1] == "X" and board[2] == "X"
+    return TRUE
+    
+end
